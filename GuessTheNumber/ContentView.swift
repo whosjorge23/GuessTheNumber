@@ -9,8 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack(alignment: .center, spacing: 0, content: {
+            TabView{
+                NumberView()
+                    .tabItem {
+                        Image(systemName: "number")
+                        Text("Guess Number")
+                    }
+            }
+            .accentColor(.orange)
+        })
     }
 }
 

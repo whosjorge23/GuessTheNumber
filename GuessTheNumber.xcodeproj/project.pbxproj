@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED3E1C662647EF0E001AA03D /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3E1C652647EF0E001AA03D /* Data.swift */; };
+		EDB507FB26484ADA0094AB0A /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB507FA26484ADA0094AB0A /* UsersView.swift */; };
+		EDB507FF26484D490094AB0A /* NumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB507FE26484D490094AB0A /* NumberView.swift */; };
 		EDEE60682645B6400062C38C /* GuessTheNumberApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEE60672645B6400062C38C /* GuessTheNumberApp.swift */; };
 		EDEE606A2645B6400062C38C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEE60692645B6400062C38C /* ContentView.swift */; };
 		EDEE606C2645B6430062C38C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDEE606B2645B6430062C38C /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED3E1C652647EF0E001AA03D /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		EDB507FA26484ADA0094AB0A /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
+		EDB507FE26484D490094AB0A /* NumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberView.swift; sourceTree = "<group>"; };
 		EDEE60642645B6400062C38C /* GuessTheNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDEE60672645B6400062C38C /* GuessTheNumberApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheNumberApp.swift; sourceTree = "<group>"; };
 		EDEE60692645B6400062C38C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +60,9 @@
 			children = (
 				EDEE60672645B6400062C38C /* GuessTheNumberApp.swift */,
 				EDEE60692645B6400062C38C /* ContentView.swift */,
+				EDB507FA26484ADA0094AB0A /* UsersView.swift */,
+				EDB507FE26484D490094AB0A /* NumberView.swift */,
+				ED3E1C652647EF0E001AA03D /* Data.swift */,
 				EDEE606B2645B6430062C38C /* Assets.xcassets */,
 				EDEE60702645B6430062C38C /* Info.plist */,
 				EDEE606D2645B6430062C38C /* Preview Content */,
@@ -139,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDEE606A2645B6400062C38C /* ContentView.swift in Sources */,
+				ED3E1C662647EF0E001AA03D /* Data.swift in Sources */,
 				EDEE60682645B6400062C38C /* GuessTheNumberApp.swift in Sources */,
+				EDB507FB26484ADA0094AB0A /* UsersView.swift in Sources */,
+				EDB507FF26484D490094AB0A /* NumberView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
